@@ -19,7 +19,9 @@ html, body{
 }
 
 body{
-    text-align: center;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
 
 h1{
