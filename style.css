@@ -19,23 +19,24 @@ html, body{
 }
 
 body{
-    text-align: left;
-    padding-left: 1rem;
-    padding-top: 1rem;
+    text-align: center;
+
 }
 
 h1{
     font-size: 36px;
     line-height: 50px;
     font-weight: bold;
-    
 }
 
 img{    
-
-    border: 0.1rem solid #333;
     border-radius: 50%;
-    font-size: 2rem;
-    width: 240px;
-    height: 200px;
+}
+
+.hero{
+    outline: 1px solid red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
