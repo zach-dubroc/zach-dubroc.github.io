@@ -8,3 +8,32 @@
     line-height: inherit;
     color: inherit;
 }
+
+html, body{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #444;
+    text-shadow: rgb(0, 0, 0) 1px 0 3px;
+    
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: bold;
+    
+}
+
+img{    
+
+    border: 0.1rem solid #333;
+    border-radius: 50%;
+    font-size: 2rem;
+    width: 240px;
+    height: 200px;
+}
