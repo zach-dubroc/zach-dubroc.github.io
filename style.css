@@ -29,8 +29,22 @@ h1{
     font-weight: bold;
 }
 
+h1 sub{
+    color: #aaa;
+    vertical-align: baseline;
+    font-size: 20px;
+}
+
+h1 sub::before{
+    content: "(";
+}
+h1 sub::after{
+    content: ")";
+}
+
 img{    
     border-radius: 50%;
+    border: 1px solid #444;
 }
 
 .hero{
@@ -40,3 +54,4 @@ img{
     flex-direction: column;
     justify-content: center;
 }
+
