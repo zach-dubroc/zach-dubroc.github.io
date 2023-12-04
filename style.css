@@ -42,9 +42,18 @@ h1 sub::after{
     content: ")";
 }
 
-img{    
-    
-   
+h2{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: bold;
+}
+a{
+    color: #58b;
+
+}
+
+a:hover{
+    color: #369;
 }
 
 .hero{
@@ -72,7 +81,7 @@ img{
     overflow: hidden;
     border: 1px solid #444;
     transition: transform 1s, box-shadow 1s;
-    background-image: url("bigtattedsexy.jpg");
+    background-image: url("img/bigtattedsexy.jpg");
     background-size: contain;
 
 }
@@ -94,3 +103,6 @@ section{
     margin: 0 auto;
 }
 
+.list li{
+    display: inline;
+}
