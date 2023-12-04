@@ -104,6 +104,11 @@ section{
 .list li{
     display: inline;
     font-weight: bold;
+    
+}
+
+.list li:not(:last-child)::after{
+    content: ", ";
 }
 
 .blocklist > li{
@@ -144,11 +149,17 @@ section{
     margin: 0 auto;
 }
 
-.prose p{
+.prose p, .prose ul
+{
     margin: 20px auto;
+    
 }
 
 .prose li{
     list-style-position: inside;
     list-style-type:disc;
+}
+
+address{
+    white-space:pre-line;
 }
