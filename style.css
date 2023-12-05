@@ -13,8 +13,9 @@ html, body{
     font-family: Helvetica, sans-serif;
     font-size: 18px;
     line-height: 30px;
-    color: #444;
+    color: #fff;
     text-shadow: rgb(0, 0, 0) 1px 0 3px;
+    background-color: 	#282828;
     
 }
 
@@ -53,6 +54,7 @@ a{
 
 a:hover{
     color: #369;
+    text-decoration: underline;
 }
 
 .hero{
@@ -87,7 +89,7 @@ a:hover{
 }
 .headshot:hover{
     transform:rotate(360deg);
-    box-shadow: 0px 0px 100px 50px #fc0;
+    box-shadow: 0px 0px 100px 50px #444444;
 }
 
 
@@ -103,19 +105,21 @@ section{
     margin: 0 auto;
 }
 
-section:target h1{
+
+
+/* section:target h1{
     animation: flash 1s;
 }
 @keyframes flash {
     from{
-        text-shadow: 5px 5px 0px #fd6,
-                    -5px -5px 0px #fd6;
+        text-shadow: 5px 5px 0px #f4d47c,
+                    -5px -5px 0px #f4d47c;
 
     }
     to{
-        text-shadow: 0px 0px 0px #fd6;
+        text-shadow: 0px 0px 0px #f4d47c;
     }
-}
+} */
 
 .list li{
     display: inline;
@@ -132,7 +136,7 @@ section:target h1{
     justify-content: center;
     border-style: solid;
     border-width: 15px;
-    border-color: #fff #eee;
+    border-color: 	#282828;
 }
 
 .blocklist > li > img{
@@ -204,14 +208,15 @@ address{
 .nav li a{
     display: block;
     line-height: 50px;
-    background-color: #fc0;
-    color: #666;
-    text-shadow: 1px 1px 0px #fd6;
+    background-color: #191919;
+    color: #fff;
+    
     transition:background-color 0.5s;
 }
 
 .nav li a:hover{
-    background-color: #fa0;
+    background-color: #444444;
+    text-decoration: underline;
 }
 
 
