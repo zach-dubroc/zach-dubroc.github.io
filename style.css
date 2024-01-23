@@ -15,7 +15,9 @@ html, body{
     line-height: 30px;
     color: #fff;
     text-shadow: rgb(0, 0, 0) 1px 0 3px;
-    background-color: 	#282828;
+    
+    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    
     
 }
 
@@ -74,29 +76,18 @@ a:hover{
 }
 
 .headshot{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
     transition:transform 1s;
     border-radius: 50%;
     overflow: hidden;
     border: 1px solid #444;
-    transition: transform 1s, box-shadow 1s;
-    background-image: url("img/bigtattedsexy.jpg");
     background-size: contain;
 
 }
-.headshot:hover{
-    transform:rotate(360deg);
-    box-shadow: 0px 0px 100px 50px #444444;
-}
 
-
-.headshot:hover img{
-    opacity: 0;
-    transition: transform 1s, opacity 3s;
-}
 
 section{
     border-top: 2px dashed #eee;
@@ -105,21 +96,6 @@ section{
     margin: 0 auto;
 }
 
-
-
-/* section:target h1{
-    animation: flash 1s;
-}
-@keyframes flash {
-    from{
-        text-shadow: 5px 5px 0px #f4d47c,
-                    -5px -5px 0px #f4d47c;
-
-    }
-    to{
-        text-shadow: 0px 0px 0px #f4d47c;
-    }
-} */
 
 .list li{
     display: inline;
@@ -195,6 +171,7 @@ address{
 }
 
 .nav{
+    visibility: collapse;
     width: 100%;
     display: flex;
     position: fixed;
@@ -221,3 +198,6 @@ address{
 }
 
 
+#portfolio{
+    visibility: collapse;
+}
